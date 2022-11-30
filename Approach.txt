@@ -1,0 +1,19 @@
+Notes:
+- 0 represent empty space on board
+- Use python sets to represent each row and col and grid?
+- The call stack remembers our choices and knows what to choose next
+- Backtracking is a method to solve problems by making a series of choices that we can return to or backtrack to
+- Main solve function follows a pattern:
+   1) Make a choice
+   2) Explore that choice
+   3) Unchoose that choice
+- Each recursion expresses a Decision
+
+CHOICES:
+- Decision space ( 1 to 9)
+
+CONSTRAINTS:
+- Check if number already exists in the 3x3 grid, row and column
+
+GOAL:
+- Once the entire board is filled and no empty position is found
